@@ -20,7 +20,7 @@ export default {
   },
   data() {
     return {
-      pageNotFound: "404 Not Found",
+      pageNotFound: "In development",
       otherError: "An error occurred"
     };
   },
