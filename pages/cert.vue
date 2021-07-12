@@ -4,9 +4,9 @@
         <v-row justify="center">
             <v-btn target="_blank" text large outlined :href="'https://drive.google.com/drive/folders/11GTyAUZYb96YptMXz__C3jrC4z3onm9T?usp=sharing'"><v-icon dark>mdi-google-drive </v-icon></v-btn>
         </v-row>
-        <v-content>
+        <v-main>
             <Gallery />
-        </v-content>
+        </v-main>
     </v-container>
 </template>
 <script lang="ts">
