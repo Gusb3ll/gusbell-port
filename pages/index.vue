@@ -1,14 +1,14 @@
-  <template>
+<template>
   <v-container>
     <h1 class="v-heading text-center text-h4 text-sm-h2 text-center mb-8">Kitpipat Jaritwong</h1>
     <v-row justify="center">
       <v-btn target="_blank" text large v-for="(item, i) in items" 
       :key="i" :href="item.to">{{ item.title }}</v-btn>
     </v-row>
-  </v-container>
+    </v-container>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   head: {
     title: 'Home'
