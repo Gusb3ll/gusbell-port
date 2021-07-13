@@ -49,7 +49,7 @@ export default {
         },
         {
           title: "Artworks",
-          to: "/artwork",
+          to: "/artworks",
         },
       ],
     };
