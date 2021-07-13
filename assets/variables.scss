@@ -2,12 +2,3 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
-
-@font-face {
-    font-family: 'Quicksand';
-    src: local('Quicksand') ,url('~/assets/fonts/quicksand/Quicksand-Regular.ttf');
-}
-
-html {
-    font-family: 'Quicksand';
-}
