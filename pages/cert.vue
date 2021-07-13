@@ -13,6 +13,7 @@
 import Gallery from '~/components/Gallery.vue';
 
 export default {
+    layout: 'default',
     head: {
     title: 'Certifications'
     },

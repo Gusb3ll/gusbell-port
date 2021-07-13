@@ -10,6 +10,7 @@
 
 <script lang="ts">
 export default {
+  layout: 'default',
   head: {
     title: 'Home'
   },
@@ -31,7 +32,7 @@ export default {
         {
           title: "Twitter",
           to: "https://twitter.com/Gusb3ll"
-        }
+        },
       ],
     };
   }

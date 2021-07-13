@@ -67,6 +67,7 @@ export default {
                     id: 8,
                     src: require("~/assets/images/t1.png")
                 },
+
             ]
         }
     }
