@@ -46,7 +46,11 @@ export default {
         {
           title: "Skills",
           to: "/skill",
-        }
+        },
+        {
+          title: "Artworks",
+          to: "/artwork",
+        },
       ],
     };
   },
