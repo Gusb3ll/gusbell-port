@@ -51,6 +51,10 @@ export default {
           title: "Artworks",
           to: "/artworks",
         },
+        {
+          title: "Extra",
+          to: "/extra",
+        }
       ],
     };
   },

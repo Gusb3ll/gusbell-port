@@ -11,7 +11,7 @@ import Artwork from '~/components/Artwork.vue';
 export default {
 
     head: {
-        title: 'Artwork',
+        title: 'Artworks',
     },
     components: {
         Artwork
