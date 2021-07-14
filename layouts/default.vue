@@ -14,10 +14,10 @@
         </v-slide-y-transition>
       </v-container>
     </v-main>
-    <v-footer padless
-      color="transparent"
-      v-bind="localAttrs">
-      <v-spacer></v-spacer><p> {{ new Date().getFullYear() }} © Kitpipat Jaritwong</p><v-spacer></v-spacer>
+    <v-footer padless color="transparent" v-bind="localAttrs">
+      <v-spacer></v-spacer>
+      <p>{{ new Date().getFullYear() }} © Kitpipat Jaritwong</p>
+      <v-spacer></v-spacer>
     </v-footer>
   </v-app>
 </template>
@@ -54,7 +54,7 @@ export default {
         {
           title: "Extra",
           to: "/extra",
-        }
+        },
       ],
     };
   },
@@ -63,12 +63,14 @@ export default {
 
 <style>
 #app {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(~assets/bg.png) !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(~assets/bg.png) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
