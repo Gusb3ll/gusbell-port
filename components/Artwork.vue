@@ -34,7 +34,14 @@ export default {
                     width: "610",
                     height: "180",
                     title: "Github banner",
-                    src: require("~/assets/banner.png"),
+                    src: require("~/assets/artwork/github-banner.png"),
+                },
+                {
+                    id: 2,
+                    width: "640",
+                    height: "360",
+                    title: "guweb banner",
+                    src: require("~/assets/artwork/guweb-banner.png"),
                 },
             ]
         }
