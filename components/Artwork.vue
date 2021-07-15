@@ -39,8 +39,15 @@ export default {
                 {
                     id: 2,
                     width: "640",
-                    height: "360",
+                    height: "180",
                     title: "guweb banner",
+                    src: require("~/assets/artwork/guweb-banner-2.png"),
+                },
+                {
+                    id: 3,
+                    width: "640",
+                    height: "360",
+                    title: "guweb banner-old",
                     src: require("~/assets/artwork/guweb-banner.png"),
                 },
             ]
