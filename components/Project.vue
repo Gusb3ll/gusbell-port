@@ -45,7 +45,7 @@ export default {
                     name: 'guweb',
                     sub: 'Frontend/Backend',
                     desc: 'Front-facing appearance of the osu! server protocol',
-                    to: 'https://github.com/Varkaria/guweb'
+                    to: 'https://github.com/Varkaria/guweb/tree/admin-panel'
                 },
                 {
                     id: 3,
