@@ -1,19 +1,17 @@
 <template>
-    <v-container>
-        <v-card outlined class="mx-16 py-4" style="background-color: rgba(0, 0, 0, 0.3);">
-            <v-row 
-                v-for="skill in skills"
-                :key="skill.id"
-                justify="center">
-                <v-col cols="12">
-                    <p class="text-h7 text-center text-sm-h6">{{ skill.title }}</p>
-                </v-col>
-                <v-col class="mt-n6" cols="8">
-                    <v-progress-linear :color="skill.color" rounded class="mb-4" height="8" :value="skill.value"></v-progress-linear>
-                </v-col>
-            </v-row>
-        </v-card>
-    </v-container>
+<v-card outlined class="mx-16 py-4" style="background-color: rgba(0, 0, 0, 0.3);">
+    <v-row 
+        v-for="skill in skills"
+        :key="skill.id"
+        justify="center">
+        <v-col cols="12">
+            <p class="text-h7 text-center text-sm-h6">{{ skill.title }}</p>
+        </v-col>
+        <v-col class="mt-n6" cols="8">
+            <v-progress-linear :color="skill.color" rounded class="mb-4" height="8" :value="skill.value"></v-progress-linear>
+        </v-col>
+    </v-row>
+</v-card>
 </template>
 
 <script lang="ts">
