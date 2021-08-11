@@ -1,5 +1,5 @@
 <template>
-<div class="block GalleryBlock">
+<div>
     <v-row>
         <v-col
         v-for="item in items"
@@ -29,7 +29,7 @@
 
 <script lang="ts">
 export default {
-    name: 'Gallery',
+    name: 'Certificate',
     data() {
         return {
             items: [

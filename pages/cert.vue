@@ -5,12 +5,12 @@
             <v-btn target="_blank" text large outlined :href="'https://drive.google.com/drive/folders/11GTyAUZYb96YptMXz__C3jrC4z3onm9T?usp=sharing'"><v-icon dark>mdi-google-drive </v-icon></v-btn>
         </v-row>
         <v-main>
-            <Gallery />
+            <Certificate />
         </v-main>
     </v-container>
 </template>
 <script lang="ts">
-import Gallery from '~/components/Gallery.vue';
+import Certificate from '~/components/Certificate.vue';
 
 export default {
     layout: 'default',
@@ -18,7 +18,7 @@ export default {
     title: 'Certifications'
     },
     components: {
-        Gallery
+        Certificate
     }
 }
 </script>

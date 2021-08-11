@@ -1,5 +1,5 @@
 <template>
-<v-container>
+<div>
     <v-row justify="center" 
     v-for="image in images" 
     :key="image.id" class="mb-8">
@@ -20,7 +20,7 @@
             </v-img>
         </v-card>
     </v-row>
-</v-container>
+</div>
 </template>
 
 <script lang="ts">
@@ -40,14 +40,14 @@ export default {
                     id: 2,
                     width: "640",
                     height: "180",
-                    title: "guweb banner",
+                    title: "guweb banner (current)",
                     src: require("~/assets/artwork/guweb-banner-2.png"),
                 },
                 {
                     id: 3,
                     width: "640",
                     height: "360",
-                    title: "guweb banner-old",
+                    title: "guweb banner (old)",
                     src: require("~/assets/artwork/guweb-banner.png"),
                 },
             ]

@@ -16,7 +16,7 @@
 
 <script>
 export default {
-    name: 'Pfp',
+    name: 'ProfilePicture',
     data() {
         return {
             avatar: {
