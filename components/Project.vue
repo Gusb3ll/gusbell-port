@@ -20,6 +20,7 @@
                 <v-btn
                     v-if="project.to"
                     style="background-color: transparent"
+                    target="_blank"
                     :href="project.to"
                     >
                     <v-icon>mdi-github</v-icon>
@@ -27,6 +28,7 @@
                 <v-btn
                     v-if="project.to2"
                     style="background-color: transparent"
+                    target="_blank"
                     :href="project.to2"
                 >
                     <v-icon>mdi-earth</v-icon>
