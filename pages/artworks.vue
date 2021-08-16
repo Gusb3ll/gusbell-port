@@ -5,7 +5,7 @@
     </v-container>
 </template>
 
-<script>
+<script lang="ts">
 import Artwork from '~/components/Artwork.vue';
 
 export default {
