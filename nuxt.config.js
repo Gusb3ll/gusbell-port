@@ -24,6 +24,8 @@ export default {
 
   css: [
   ],
+  
+  script: './node_modules/nuxt/bin/nuxt.js',
 
   plugins: [
   ],
