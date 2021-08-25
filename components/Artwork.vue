@@ -50,6 +50,13 @@ export default {
                     title: "guweb banner (old)",
                     src: require("~/assets/artwork/guweb-banner.png"),
                 },
+                {
+                    id: 4,
+                    width: "600",
+                    height: "600",
+                    title: "School logo",
+                    src: require("~/assets/artwork/school-logo.png"),
+                },
             ]
         }
     }
