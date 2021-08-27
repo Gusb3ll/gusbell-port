@@ -23,6 +23,10 @@ export default {
           to: "https://github.com/Gusb3ll"
         },
         {
+          title: "LinkedIn",
+          to: "https://Linkedin.com/in/kitpipat-jaritwong-3123a221a/"
+        },
+        {
           title: "Coursera",
           to: "https://www.coursera.org/user/c178abbe9febc8e12a5857fcc4ea88e2"
         },
